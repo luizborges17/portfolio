@@ -22,3 +22,13 @@ Um importante polo da indústria aeroespacial brasileira, fundada em 1986, a IAC
 
 ### Visão do Projeto
 A Iacit é uma empresa de consultoria meteorológica, e hoje, um dos seus serviços é fornecer aos nossos clientes, relatórios customizados de dados meteorológicos. Como alguns de seus processos necessitam de trabalho manuais, e muitas das vezes é desperdiçado recursos e tempo. Por isso, criamos um sistema web que permite realizar a importação dos dados meteorológicos, bem como armazená-los em um banco de dados relacional, e oferecer diferentes tipos de visualizações de tipos de dados sendo possível  gerar os relatórios customizados de forma que o usuário desejar.
+
+<details>
+<summary>Habilidades desenvolvidas como Scrum Master</summary>
+
+<p>• Gestão de pessoas
+<p>• Gestão de processos
+<p>• Realização de documentações
+<p>• Suporte ao desenvolvimento
+      
+</details>
