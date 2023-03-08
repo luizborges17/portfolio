@@ -23,12 +23,23 @@ Um importante polo da indústria aeroespacial brasileira, fundada em 1986, a IAC
 ### Visão do Projeto
 A Iacit é uma empresa de consultoria meteorológica, e hoje, um dos seus serviços é fornecer aos nossos clientes, relatórios customizados de dados meteorológicos. Como alguns de seus processos necessitam de trabalho manuais, e muitas das vezes é desperdiçado recursos e tempo. Por isso, criamos um sistema web que permite realizar a importação dos dados meteorológicos, bem como armazená-los em um banco de dados relacional, e oferecer diferentes tipos de visualizações de tipos de dados sendo possível  gerar os relatórios customizados de forma que o usuário desejar.
 
-<details>
-<summary>Habilidades desenvolvidas como Scrum Master</summary>
 
-<p>• Gestão de pessoas
-<p>• Gestão de processos
-<p>• Realização de documentações
-<p>• Suporte ao desenvolvimento
-      
+### Tecnologias utilizadas
+<details>
+<summary>Spring</summary>
+
+<p>• Utilizando se do ecossistema Spring, foi implementado no projeto: Spring-boot, Spring-security e Spring-data. Pela parte do Spring-boot foi possível alimentar o dashboard e cards que apresentavam os dados, através de requisições HTTP utilizando a arquitetura Rest. O Spring-security foi implementado para utilizar se de sua criptografia do pacote "cripto" em dados sensíveis e o Spring-data utilizamos para poder realizar operações com o banco de dados.
+    
+</details>
+
+
+### Contribuições Pessoais
+
+Desenvolvimento focado na stack de back-end, construção e desenvolvimentos de metodos utilizando Java com o framework Spring e seu ecossistema. Solucionei durante o projeto alguns desafios:
+
+<details>
+<summary>Desenvolvimento de diversos tipos de filtro de dados</summary>
+
+<p>• Utilizando se através de requições HTTP foram realizados metodos que faziam a filtragem de dados metereológicos por região, estado, cidade, unidade metereológica e data, permitindo o usuário visualizar os dados através de um período definido ou por apenas uma data específica.
+    
 </details>
