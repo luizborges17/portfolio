@@ -32,14 +32,47 @@ A Iacit é uma empresa de consultoria meteorológica, e hoje, um dos seus servi�
     
 </details>
 
+<details>
+<summary>Thymeleaf</summary>
+
+<p>• O Thymeleaf é um mecanismo de template que permite integrar HTML, CSS e JavaScript com dados dinâmicos em aplicativos web Java. Quando utilizado com Spring Boot, o Thymeleaf é uma ferramenta poderosa para a criação de páginas web dinâmicas e interativas, permitindo a manipulação de dados em tempo de execução, a personalização da aparência da página de acordo com o contexto, e a utilização de recursos avançados de template, como laços, condicionais e internacionalização. Além disso, o Thymeleaf é fácil de usar, com uma sintaxe simples e intuitiva, e é altamente compatível com outras tecnologias de front-end e back-end.
+    
+</details>
+
+
+
+<details>
+<summary>Javascript</summary>
+
+<p>• O JavaScript é uma linguagem de programação fundamental para o desenvolvimento de aplicações web modernas. Ele é amplamente utilizado no front-end para criar interfaces dinâmicas e interativas, tornando a experiência do usuário mais agradável e fluida. Com o JavaScript, é possível manipular elementos da página em tempo real, oferecendo recursos como animações, validação de formulários, exibição de conteúdo dinâmico e muito mais. Com isso, a importância do uso de JavaScript no front-end é inegável para a construção de sites eficientes e que atendam às expectativas dos usuários.
+    
+</details>
+
+<details>
+<summary>HTML</summary>
+
+<p>• HTML é a linguagem de marcação padrão para a criação de páginas web. Ela permite a estruturação e organização do conteúdo da página, além de fornecer as informações necessárias para o navegador renderizá-la corretamente. O uso adequado do HTML é fundamental para criar sites acessíveis, bem estruturados e com boa semântica, tornando-os mais fáceis de serem encontrados e utilizados pelos usuários
+</details>
+
+<details>
+<summary>CSS</summary>
+
+<p>• CSS é uma linguagem de estilo utilizada para definir a aparência e o layout de uma página web. Seu uso é fundamental para criar designs atrativos, responsivos e funcionais, tornando a experiência do usuário mais agradável e eficiente.
+    
+</details>
+
+
 
 ### Contribuições Pessoais
 
 Desenvolvimento focado na stack de back-end, construção e desenvolvimentos de metodos utilizando Java com o framework Spring e seu ecossistema. Solucionei durante o projeto alguns desafios:
 
 <details>
-<summary>Desenvolvimento de diversos tipos de filtro de dados</summary>
-
-<p>• Utilizando se através de requições HTTP foram realizados metodos que faziam a filtragem de dados metereológicos por região, estado, cidade, unidade metereológica e data, permitindo o usuário visualizar os dados através de um período definido ou por apenas uma data específica.
+<summary>Edição de dados do usuário</summary>
+        <img src="https://github.com/luizborges17/portfolio/blob/main/WhatsApp%20Image%202023-03-22%20at%207.26.19%20PM%20(1).jpeg?raw=true" height="850" width="850"/>    
+    
+    
+    
+<p>•Utilizando se através de requições HTTP, era recebido os dados que seriam editados do usuario e também quem realizou a edição, utilizando dos métodos do JPA e o Hibernate para realizar a pesquisa de qual usuario realizou a edição e qual usuario seria editado, durante o processo foi realizado a implementação do pacote BCryptPasswordEncoder para poder codificar a senha do usuario atraves da função "encode". Esta função cria um Hash que produz uma saída de 192 bits a qual dificulta a realização de ataques do tipo "Brute Force". Com isso as alterações são salvas no banco de dados e é retornado um objeto do tipo ModelAndView com o nome do template que será carregado e os dados que foram setados previamente no método.
     
 </details>
